@@ -6,7 +6,7 @@
 <body>
 	<div class="banner">
 		<div class="navbar">
-			<img src="file:///C:/Users/User/Downloads/logu.png" class="logo">
+			<img src="../images/logu.png" class="logo">
 			<ul>
 				<li><a href="website_lrn.html">HOME</a></li>
 				<li><a href="about_lrn.html">ABOUT</a></li>
