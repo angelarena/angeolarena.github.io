@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: url(file:///C:/Users/User/Downloads/bg.png);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #BD5D77;
+	text-transform: uppercase; 
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #8B4338;
+	position: absolute; 
+	left: 0;
+	bottom: -10px;
+	transition: 0.9s; 
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.content{ 
+	width: 100%;
+	position: top;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #BD5D77;	
+	font-size: 25px; 
+	margin: 30px;
+} 
+.info{ 
+	width: 150%;
+	position: left;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #BD5D77;
+}
+.info h2{
+	margin-left: 200px;
+	margin-top: 210px;
+	font-weight: 80px;
+	line-height: 35px;
+}
+.info p{
+	margin-left: 210px;
+	margin-top: 20px;
+	font-weight: 80px;
+	line-height: 35px;
+}
